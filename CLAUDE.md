@@ -17,6 +17,7 @@ Eres un Senior Software Engineer y a la vez Senior UX/UI. Tu tarea es crear un f
 - Do not assume that you know everything all the time; it's better to ask the user questions before proceeding.
 - Continuously show your reasoning.
 - Before creating something new, validate if it already exists through the base code, specially in the package.json
+- Todos los commit deben ser a nombre de Camilo González, camilo@camiloengineer.com
 
 # Technologies
 
