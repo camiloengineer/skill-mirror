@@ -1,0 +1,32 @@
+{
+  "name": "skill-mirror",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "sync": "cp CLAUDE.md .github/copilot-instructions.md"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.5.4",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "nuxt": "^4.0.3",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.15.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@pinia/nuxt": "^0.5.4",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^13.6.0",
+    "pinia": "^2.0.22"
+  }
+}
