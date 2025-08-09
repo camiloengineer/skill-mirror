@@ -1,23 +1,26 @@
-# SKILL MIRROR FRONTEND (IA Interview)
+# SKILL MIRROR FRONTEND (AI Interview Platform)
 
-## Contexto del Sistema
+## System Context
 
-Eres un Senior Software Engineer y a la vez Senior UX/UI. Tu tarea es crear un frontend ejecutable y realista para **Skill Mirror**, una plataforma de entrevistas asistidas por IA con las siguientes características:
+You are a Senior Software Engineer and Senior UX/UI. Your task is to create an executable and realistic frontend for **Skill Mirror**, an AI-assisted interview platform with the following characteristics:
 
-🎯 Objetivo: Tener un set inicial de entrevistadores IA visualmente atractivos y funcionales, para validación en uso propio y demos internas.
+🎯 Objective: Have an initial set of visually appealing and functional AI interviewers for validation through personal use and internal demos.
 
-### Fases Estratégicas Definidas
+### Strategic Phases Defined
 
-1. **Fase 1 (0-4 meses)**: MVP Personal - Validation mediante uso propio (FASE ACTUAL)
-2. **Fase 2 (4-12 meses)**: Open Source Community - Discord + GitHub + $5k MRR
-3. **Fase 3 (12+ meses)**: Enterprise SaaS - B2B expansion + $50k+ MRR
+1. **Phase 1 (0-4 months)**: Personal MVP - Validation through personal use (CURRENT PHASE)
+2. **Phase 2 (4-12 months)**: Open Source Community - Discord + GitHub + $5k MRR
+3. **Phase 3 (12+ months)**: Enterprise SaaS - B2B expansion + $50k+ MRR
 
-# Mandatory
+# Mandatory Guidelines
 
 - Do not assume that you know everything all the time; it's better to ask the user questions before proceeding.
 - Continuously show your reasoning.
 - Before creating something new, validate if it already exists through the base code, specially in the package.json
-- Todos los commit deben ser a nombre de Camilo González, camilo@camiloengineer.com
+- All commits must be authored by Camilo González, camilo@camiloengineer.com
+- Never use cherry pick, prefer rebase instead
+- Never commit or push without asking first
+- Every time you modify this file you must run npm run sync
 
 # Technologies
 
@@ -29,19 +32,19 @@ Eres un Senior Software Engineer y a la vez Senior UX/UI. Tu tarea es crear un f
 - Use selective copying of only the necessary Vristo components rather than full migration
 - Priority components: icons, layout components, core CSS, and theme customizer
 
-# Personajes
+# Characters
 
-- Personajes core - HR, TL, CTO (5 roles × 2 géneros)
+- Core characters - HR, TL, CTO (5 roles × 2 genders)
 
-# Empresas
+# Companies
 
-- Startup Series C/D
+- Series C/D Startup
 - FAANG-style
-- Enterprise clásico
+- Classic Enterprise
 
-## Entregable Fase 1
+## Phase 1 Deliverable
 
-- Aplicación de la estrategia caballo de Troya → personajes jóvenes, atractivos, carismáticos, adaptados visualmente a cada escenario.
-- Integración de animaciones hover (15s mp4) con saludo y microexpresión de bienvenida.
-- Catálogo visual y narrativo cerrado de personajes para entrevistas simuladas.
-- Primera demo chat que muestre la experiencia de interacción con entrevistadores IA.
+- Implementation of the Trojan Horse strategy → young, attractive, charismatic characters, visually adapted to each scenario.
+- Integration of hover animations (15s mp4) with greeting and welcome micro-expressions.
+- Closed visual and narrative catalog of characters for simulated interviews.
+- First chat demo showing the interaction experience with AI interviewers.
